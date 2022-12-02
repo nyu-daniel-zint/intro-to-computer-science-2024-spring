@@ -1,0 +1,22 @@
+github-org-name: nyu-java-programming
+baseurl: /course-materials
+title: Introduction to Computer Science
+description: >
+  A thorough course in computer science concepts, focused on object-oriented programming using the Java programming language.
+copyright: GNU General Public License, Version 3
+layouts_dir: theme/_layouts/
+plugins:
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-seo-tag
+defaults:
+  - scope:
+      path: "content"
+      type: pages
+    values:
+      layout: github
+  - scope:
+      path: "slides"
+      type: pages
+    values:
+      layout: presentation

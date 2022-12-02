@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    {% seo %}
+
+    <link
+      rel="stylesheet"
+      href="{{ site.baseurl | strip_html }}/theme/css/presentation.css"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="{{ site.baseurl | strip_html }}/theme/favicon.ico"
+    />
+  </head>
+  <body>
+    <header class="slides">
+      <!-- breadcrumb -->
+      <small>
+        <a href="https://github.com/{{ site.github.owner_name }}">
+          {{ site.github.owner_name | downcase | strip_html }}
+        </a>
+        /
+        <a href="{{ site.baseurl | strip_html }}/">
+          <!-- {{ site.github-org-name }} -->
+          {{ site.github.repository_name | strip_html }}
+        </a>
+        /
+        <a href="{{ site.baseurl | strip_html }}{{ page.url }}">
+          {{ page.title | downcase | strip_html }}
+        </a>
+      </small>
+      <!-- // breadcrumb -->
+    </header>
+    <textarea id="source">{{ page.content }}</textarea>
+    <footer>
+      <small>
+        <a
+          class="source"
+          href="https://github.com/{{ site.github-org-name }}{{ site.baseurl }}/blob/master/{{ page.path | strip_html }}"
+          >view source</a
+        >.
+      </small>
+    </footer>
+    <script
+      src="{{ site.baseurl | strip_html }}/theme/js/remark.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      var slideshow = remark.create({
+        navigation: { scroll: false },
+        highlightStyle: "monokai",
+        countIncrementalSlides: false,
+      })
+    </script>
+  </body>
+</html>
