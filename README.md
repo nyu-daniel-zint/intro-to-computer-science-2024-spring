@@ -2,9 +2,9 @@
 
 Slide presentations used to teach basic computer science concepts, largely focused on object-oriented programming.
 
-## Publishing slides
+## Deployed site
 
-Slides are auto-generated from the materials in the `slides` folder using Git Pages.
+View the [schedule](https://nyu-java-programming.github.io/course-materials/) and [syllabus](https://nyu-java-programming.github.io/course-materials/syllabus), which contain links to all deployed course materials.
 
 ## Running locally
 
