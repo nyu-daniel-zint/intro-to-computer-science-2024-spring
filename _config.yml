@@ -1,5 +1,5 @@
-github-org-name: nyu-java-programming
-baseurl: /course-materials
+github-org-name: daniel-zint
+baseurl: /nyu-intro-to-computer-science
 title: Introduction to Computer Science
 description: >
   A thorough course in computer science concepts, focused on object-oriented programming using the Java programming language.
