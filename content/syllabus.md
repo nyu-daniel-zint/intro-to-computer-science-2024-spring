@@ -5,8 +5,8 @@ permalink: /syllabus/
 
 # Syllabus
 
-Introduction to Computer Science<br />
-New York University<br />
+Introduction to Computer Science  
+New York University  
 Department of Computer Science
 
 ## Course description
@@ -33,7 +33,9 @@ Upon completing this course, students will be familiar with some of the foundati
 
 ## Instructor
 
-Amos Bloomberg<br />amos@cs.nyu.edu<br />WWH 424
+Daniel Zint  
+daniel.zint@nyu.edu  
+60 5th Ave 510
 
 ## Getting help
 
@@ -66,7 +68,7 @@ Additional academic support is also available through the [University Learning C
 
 ## Attendance & participation
 
-Attendance is mandatory. In-class and online message board participation is encouraged. Students who do not attend class regularly and who do not participate in discussions tend to do poorly.
+**Attendance is highly encouraged**! In-class and online message board participation is encouraged. Students who do not attend class regularly and who do not participate in discussions tend to do poorly.
 
 ## Required software and hardware
 
@@ -115,12 +117,6 @@ Students are automatically granted 2 late assignment extensions of up to 3 days 
 ### Regrade requests
 
 If a student requests a regrade of any work, we will regrade the work in full, not just the part that the student believes has been mis-graded.
-
-## Inspirational quote
-
-> Object-oriented programming is an exceptionally bad idea which could only have originated in California.
->
-> – [Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)
 
 ## Academic Integrity
 
