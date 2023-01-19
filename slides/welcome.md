@@ -55,11 +55,9 @@ template: introductions
 
 ## Me
 
-Foo Barstein
+Daniel Zint
 
-instagram: [foo.barstein](https://instagram.com/foo.barstein)
-
-discord: @foo.barstein
+email: daniel.zint@nyu.edu
 
 ---
 
@@ -69,8 +67,8 @@ template: introductions
 
 - Probably an aspiring programmer.
 - Perhaps an aspiring computer scientist.
-- Hopefully interested in making things and solving problems.
-- Willing to spend hours by yourself reading and staring at code.
+- Hopefully, interested in making things and solving problems.
+- Willing to spend hours by yourself reading and **staring at code**.
 
 ---
 
@@ -170,7 +168,7 @@ Review [functions](https://nyu-python-programming.github.io/course-material/func
 
 ## Modules
 
-A module is a simply a reusable library of code.
+A module is a reusable library of code.
 
 ```python
 # import random module
@@ -342,7 +340,7 @@ Try to convince me that you don't understand this code:
 ```javascript
 let x = 5;
 let y = true;
-if (x < 10 and y == true) {
+if (x < 10 and y === true) {
     console.log("Easy peasy!");
 }
 ```
@@ -512,7 +510,13 @@ Jump ahead almost a semester to [recursion](../../slides/recursion).
 
 ## You can place out of this class
 
-If you are comfortable with multi-dimensional arrays, object-oriented programming, and recursion, consider taking a placement exam to skip this course.
+If you are comfortable with
+
+- multi-dimensional arrays,
+- object-oriented programming, and
+- recursion
+
+Consider taking a placement exam to skip this course.
 
 Learn about [placement exams](https://cs.nyu.edu/home/undergrad/placement_sample_exams.html).
 
@@ -711,7 +715,7 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 Get git [for Mac](https://git-scm.com/downloads) or [Git for Windows](https://gitforwindows.org/).
 
 - Git for Windows additionally comes with Git Bash, which gives Windows users a UNIX-like command shell.
-- WINDOWS USERS - you should use Git Bash or Windows Subsystem for Linux (WSL) rather than Windows' default Powershell or other command line shell program. To set Git Bash or WSL as the default terminal shell within Visual Studio Code, you can try to follow the instructions in [the second answer here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal) by **Mahade Walid** and edited by **FruityOatyBar** (ignore the first answe, which is outdated).
+- WINDOWS USERS - you should use Git Bash or Windows Subsystem for Linux (WSL) rather than Windows' default Powershell or other command line shell program. To set Git Bash or WSL as the default terminal shell within Visual Studio Code, you can try to follow the instructions in [the second answer here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal) by **Mahade Walid** and edited by **FruityOatyBar** (ignore the first answer, which is outdated).
 - Mac users already have a UNIX command shell in the Terminal app.
 
 ---
