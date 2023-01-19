@@ -86,6 +86,9 @@ header.slides a {
   color: #505050;
   text-decoration: none;
 }
+footer {
+  height: 0px;
+}
 footer a.source {
   color: #505050;
   position: fixed;
