@@ -69,7 +69,7 @@ A computer is any device, entity, or object that can perform computations.
 
 name: processor
 
-# Procesesor
+# Processor
 
 --
 
@@ -213,7 +213,7 @@ name: assembly-4
 
 ## Assembling
 
-Converting code written in assembly language to the equivalent machine language is known as **assembling** - it's essentially a search/replace operation where mnemonics are replaced with their machine code equialents.
+Converting code written in assembly language to the equivalent machine language is known as **assembling** - it's essentially a search/replace operation where mnemonics are replaced with their machine code equivalents.
 
 The program to do so is called an **assembler**.
 
@@ -402,15 +402,15 @@ Byte code is somewhere between machine code and high-level source in abstraction
 
 --
 
-- The Java Virtual Machines are virtual computers (a software simulation a physical computer), which are designed to view byte code as their native machine code.
+- The Java Virtual Machines are virtual computers (a software simulating a physical computer), which are designed to view byte code as their native machine code.
 
 --
 
-- These JVMs contain within them interpreters which can translate this byte code to the appropriate machine code for whichever physical processessor they are actually running on.
+- These JVMs contain interpreters that can translate this byte code to the appropriate machine code for whichever physical processessor they are actually running on.
 
 --
 
-- Any programaming language that can be compiled Java byte code can run in a JVM... Groovy, Kotlin, and Scala are popular high-level languages with different syntax from Java that take advantage of this.
+- Any programaming language that can be compiled into Java byte code can run in a JVM... Groovy, Kotlin, and Scala are popular high-level languages with different syntax from Java that take advantage of this.
 
 ---
 

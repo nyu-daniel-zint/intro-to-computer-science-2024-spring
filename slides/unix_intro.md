@@ -35,7 +35,7 @@ name: assumptions
 
 In order to run Unix or Linux commands, you will need a terminal emulator:
 
-- OS X users already have the Terminal app we will use for this purpose.
+- OS X users already have the Terminal app.
 - Windows users must have [Git for Windows](https://gitforwindows.org/) installed.
 
 ---
@@ -159,7 +159,7 @@ Both files and directories may be hidden by naming them prefixed with a period,`
 To view a listing of files and directories including metadata about each item, use the `l` flag on the `ls` command.
 
 ```bash
-foo@bar$ ls -a
+foo@bar$ ls -l
 drwx------+ 10 foo  bar   320 Sep  4 10:41 dir1
 drwx------+ 19 foo  bar   608 Aug 30 21:38 dir2
 drwx------+  8 foo  bar   256 Nov 27  2017 dir3
@@ -184,21 +184,20 @@ foo@bar$ ls -la
 
 ```bash
 foo@bar$ ls -a
-drwx------+ 10 foo  bar   320 Sep  4 10:41 dir1
-drwx------+ 19 foo  bar   608 Aug 30 21:38 dir2
-drwx------+  8 foo  bar   256 Nov 27  2017 dir3
-drwx------+  4 foo  bar   128 Dec 31  2016 dir4
-drwx------+ 19 foo  bar   611 Aug 21 21:38 dir5
--rwx------+ 10 foo  bar   320 Sep  4 10:41 file1
--rwx------+ 19 foo  bar   608 Aug 30 21:38 file2
+drwx------+ 10 foo  bar     0 Sep  4 10:41 dir1
+drwx------+ 19 foo  bar     0 Aug 30 21:38 dir2
+drwx------+  8 foo  bar     0 Nov 27  2017 dir3
+-rwx------+  1 foo  bar   320 Sep  4 10:41 file1
+-rwx------+  1 foo  bar   608 Aug 30 21:38 file2
 ```
 
 The metadata included in a long listing of files and directories in the working directory indicates a few different things, including:
 
-- directories are indicated by a `d` at the beginning of the line, files show `-` instead.
-- the user who owns each of the items can read, write and execute each of them, indicated by the `rwx` letters in each line. No other users can do any of these things with these items.
+- `d` indicates a directory, files show `-` instead.
+- the user who owns each of the items can read `r`, write `w`, and execute `x` them.
 - the single user `foo` owns all these items
 - the group of users named `bar` owns all these items
+- the last columns are: file size in byte, date of last change, name
 
 ---
 
@@ -230,7 +229,7 @@ foo@bar$ pwd
 
 ## How do I jump to a directory from anywhere
 
-If you kmow the full path of a directory to which you want to navigate, type it after the `cd` command.
+If you know the full path of a directory to which you want to navigate, type it after the `cd` command.
 
 ```bash
 foo@bar$ pwd
@@ -282,7 +281,7 @@ Or keep its current name, but move it to an entirely different directory:
 foo@bar$ mv environmental_cosmetology.txt /Users/foo/Documents/
 ```
 
-Or rename it and move it to an entirely different directory up two levels and down from there into a subdirectory named `baz`:
+Or rename it and move it to an entirely different directory up two levels and down from there into a subdirectory named _baz_:
 
 ```bash
 foo@bar$ mv /Users/foo/Documents/environmental_cosmetology.txt ../../baz/ecdp.txt
@@ -328,10 +327,10 @@ Delete an empty sub-directory named `meat`:
 foo@bar$ rmdir meat
 ```
 
-Delete a non-empty directory with the `r` and `f` flags of the `rm` command:
+Delete a non-empty directory with the `r` flag of the `rm` command:
 
 ```bash
-foo@bar$ rm -rf meat
+foo@bar$ rm -r meat
 ```
 
 ---

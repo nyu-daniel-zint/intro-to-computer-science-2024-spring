@@ -218,10 +218,10 @@ template: better-code
 
 Java code can be organized into "packages" of related files.
 
-Add a similar package declaration to your source code file in an editor of your choice, but replace `fb1258` with your own NYU Net ID.
+Add a similar package declaration to your source code file in an editor of your choice, but replace `ab1234` with your own NYU Net ID.
 
 ```java
-package edu.nyu.cs.fb1258;
+package edu.nyu.cs.ab1234;
 
 public class MyFirstJavaProgram {
 	public static void main(String[] args) {
@@ -240,21 +240,21 @@ template: better-code
 
 Sadly, with a package identifier, the `.java` and `.class` files must now be located in a directory that matches the package or the JVM will not execute them.
 
-Create an appropriate set of sub-directories, and move both files at once (replace `fb1258` with yoru own NYU Net ID):
+Create an appropriate set of sub-directories, and move both files at once (replace `ab1234` with your own NYU Net ID):
 
 ```bash
 foo@bar$ mkdir edu
 foo@bar$ mkdir edu/nyu
 foo@bar$ mkdir edu/nyu/cs
-foo@bar$ mkdir edu/nyu/cs/fb1258
-foo@bar$ mv MyFirstJavaProgram.* edu/nyu/cs/fb1258
+foo@bar$ mkdir edu/nyu/cs/ab1234
+foo@bar$ mv MyFirstJavaProgram.* edu/nyu/cs/ab1234
 ```
 
 Of course there is a way to create all these sub-directories at once using the `-p` flag to the `mkdir` command:
 
 ```bash
-foo@bar$ mkdir -p edu/nyu/cs/fb1258
-foo@bar$ mv MyFirstJavaProgram.* edu/nyu/cs/fb1258
+foo@bar$ mkdir -p edu/nyu/cs/ab1234
+foo@bar$ mv MyFirstJavaProgram.* edu/nyu/cs/ab1234
 ```
 
 ---
@@ -266,7 +266,7 @@ template: better-code
 Sadder still, the Java source code must now be re-compiled, since the byte code is no longer up to date.
 
 ```bash
-foo@bar$ javac edu/nyu/cs/fb1258/MyFirstJavaProgram.java
+foo@bar$ javac edu/nyu/cs/ab1234/MyFirstJavaProgram.java
 ```
 
 This will overwrite the file named `MyFirstJavaProgram.class` in the appropriate directory.
@@ -277,12 +277,12 @@ template: better-code
 
 ## Re-execute the Java byte code
 
-At this point, you have two files named `MyFirstJavaProgram.java` (source code) and `MyFirstJavaProgram.class` (byte code) in the directory `edu/nyu/cs/fb1258`, where `fb1258` is replaced with your own NYU Net ID.
+At this point, you have two files named `MyFirstJavaProgram.java` (source code) and `MyFirstJavaProgram.class` (byte code) in the directory `edu/nyu/cs/ab1234`, where `ab1234` is replaced with your own NYU Net ID.
 
 Now try running it. Here we will tell the JVM that it should look in the current working directory (nicknamed `.` in UNIX) and any sub-directories for the appropriate .class files within the indicated package.
 
 ```bash
-foo@bar$ java -classpath . edu.nyu.cs.fb1258.MyFirstJavaProgram
+foo@bar$ java -classpath . edu.nyu.cs.ab1234.MyFirstJavaProgram
 Better welcome to Java from the command line!
 ```
 
@@ -314,10 +314,10 @@ project-directory/
 
 --
 
-In which case, we'd need to modify our compile and execute commands. Assuming the source code files were in the new location:
+We need to modify our compile and execute commands:
 
 ```bash
-foo@bar$ javac -d bin src/edu/nyu/cs/fb1258/MyFirstJavaProgram.java
+foo@bar$ javac -d bin src/edu/nyu/cs/ab1234/MyFirstJavaProgram.java
 ```
 
 ```bash
@@ -337,7 +337,7 @@ name: input
 In order to easily receive keyboard input from a user, a Java program must import `java.util.Scanner`.
 
 ```java
-package edu.nyu.cs.fb1258;
+package edu.nyu.cs.ab1234;
 
 import java.util.Scanner;
 
@@ -377,7 +377,7 @@ template: input
 Using any of the functions besides `nextLine()` creates complication. For example:
 
 ```java
-package edu.nyu.cs.fb1258;
+package edu.nyu.cs.ab1234;
 import java.util.Scanner;
 
 public class LookHowGreatJavaIs {
@@ -764,9 +764,9 @@ template: data-types
 
 ## Converting data types
 
-Use **exception handline** to handle any problems encountered while attempting to convert one data type to another.
+Use **exception handling** to handle any problems encountered while attempting to convert one data type to another.
 
-```
+```java
 String aString = "foo bar baz bum"; //  a string that has no obvious int equivalent
 
 try{
