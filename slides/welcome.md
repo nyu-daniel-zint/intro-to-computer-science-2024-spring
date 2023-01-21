@@ -561,7 +561,7 @@ template: how-course-works
 
 ## Reading
 
-Reading assignments from [the textbook](../../syllabus) and elsewhere each class. The textbook is quite thorough.
+Reading assignments from [the textbook](../../syllabus#textbook) and elsewhere each class. The textbook is quite thorough.
 
 ---
 
@@ -573,7 +573,7 @@ You will have somewhere around 10 assignments.
 
 You lose 10 points for each day late and we do not accept submissions more than 3 days late.
 
-See the complete [lateness policy](../../syllabus).
+See the complete [lateness policy](../../syllabus#late-policy).
 
 ---
 
@@ -582,11 +582,7 @@ name: extensions
 
 ## Extensions
 
-Please do not ask for an extension.
-
---
-
-You are hereby granted 2 free extensions for work submitted up to 1 week past the due date.
+There are no extensions.
 
 ---
 
@@ -680,11 +676,11 @@ Contact me if you have concerns about privacy.
 
 # What to do now
 
-## Download and JDK version 8
+## Download and Install JDK
 
-The Java Development Kit (JDK) is a necessary set of tools that help develop Java programs. Install the Standard Edition (SE). We use the older version 8 because it is compatible with [Processing](https://processing.org), which we will use later in this course, whereas Processing is not compatible with newer versions of the JDK.
+The Java Development Kit (JDK) is a necessary set of tools that help develop Java programs. Install the Standard Edition (SE).
 
-https://www.oracle.com/java/technologies/downloads/#java8
+https://www.oracle.com/java/technologies/downloads/
 
 ---
 

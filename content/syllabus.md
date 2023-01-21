@@ -74,6 +74,10 @@ Additional academic support is also available through the [University Learning C
 
 All students require access to a computer on which they can write programs using a specific set of applications. Computers at any of the university's computer labs will do, as will any laptop or desktop computer.
 
+## Textbook
+
+The course is based on the book [_Introduction to Java Programming, Brief Version, 11th Edition_](https://www.pearson.com/en-us/subject-catalog/p/introduction-to-java-programming-brief-version/P200000003486/9780137504374) written by _Y. Liang_ and published by _Pearson_. Please get yourself access to a copy of it in order do the reading assignments.
+
 ### Computer labs
 
 Windows and Mac computers are available to you in the [ITS labs](http://www.nyu.edu/its/labs/). You do not need your own computer nor do you need to purchase any software. However, you will be learning how to use various programs and may wish to have access to them at home or on your laptop. In this case, you must purchase your own license or use a trial version, which is sometimes available from the publisher. You can download software provided by ITS to all students, including SFTP programs, by going to the [ITS software page](https://www.nyu.edu/its/software/).
@@ -108,11 +112,7 @@ All assigned work is due _before_ class on the due date indicated on the [schedu
 
 ### Extensions
 
-Students are automatically granted 2 late assignment extensions of up to 3 days late each, with the exception that all assignments must be submitted before the last day of regular classes before the final exam period.
-
-- when submitting an assignment for which you would like to use one of these automatic extensions, you must notify the grader that you are using the extension, otherwise your assignment will be rejected.
-- for group work, each member of the group must use an extension (or lose points if none is available) for the entire group to submit work late.
-- _No additional extensions will be granted._
+There are **no** extensions.
 
 ### Regrade requests
 
