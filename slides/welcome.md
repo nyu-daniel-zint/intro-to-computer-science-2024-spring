@@ -545,15 +545,11 @@ template: how-course-works
 
 ## Notes
 
-I write notes for most lecture topics. You may find them useful but incomplete.
+> I write notes for most lecture topics. You may find them useful but incomplete.
+>
+> -_Amos Bloomberg_
 
----
-
-template: how-course-works
-
-## Slides
-
-Students constantly request slides, so I have made them. However, I believe you are better off reviewing documents and code. Each slide has a link to its "source" document, which may be easier to read.
+You find all the material to his courses on [Knowldedge Kitchen](https://knowledge.kitchen/).
 
 ---
 
@@ -622,11 +618,9 @@ template: how-course-works
 
 ## Communication
 
-We use Dicord for all communication outside of the classroom.
+We use [Slack](https://join.slack.com/t/introtocomput-mlg1264/shared_invite/zt-1npo185si-eIYS_8Di70fAlFY2CknxcA) for all communication outside of the classroom.
 
-You must create a private channel in Discord.
-
-Check the complete [Discord details](../../syllabus).
+You must use your NYU email to join.
 
 ---
 
