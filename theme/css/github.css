@@ -202,8 +202,8 @@ body {
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 14px;
   line-height: 1.5;
-  color: #24292e;
-  background-color: #fff;
+  background-color: #24292e;
+  color: #c6cbd1;
 }
 a {
   color: #0366d6;
@@ -4932,11 +4932,11 @@ pre {
   border: 1px solid #dfe2e5;
 }
 .markdown-body table tr {
-  background-color: #fff;
+  background-color: #24292e;
   border-top: 1px solid #c6cbd1;
 }
 .markdown-body table tr:nth-child(2n) {
-  background-color: #f6f8fa;
+  background-color: #292f35;
 }
 .markdown-body table img {
   background-color: transparent;
