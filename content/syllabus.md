@@ -37,6 +37,8 @@ Daniel Zint
 daniel.zint@nyu.edu  
 60 5th Ave 510
 
+Office hours: Tu/Th 1:30 - 2:30 pm
+
 ## Getting help
 
 Help resources available to you are listed in order of urgency of your problem:
@@ -60,7 +62,8 @@ For any issues at all, contact the instructor:
 - see me before class
 - raise your hand or simply speak during class
 - see me after class
-- come to my open office hours - hours to be distrubuted in class
+- come to my open office hours
+- join [Slack](https://join.slack.com/t/introtocomput-mlg1264/shared_invite/zt-1npo185si-eIYS_8Di70fAlFY2CknxcA)
 
 ### Additional tutoring resources
 

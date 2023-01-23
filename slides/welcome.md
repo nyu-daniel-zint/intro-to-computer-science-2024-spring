@@ -606,11 +606,11 @@ template: how-course-works
 
 ## Grading
 
-- 25% quizzes
-- 35% assignments
-- 10% first exam
-- 15% second exam
-- 15% third exam
+- 10% quizzes
+- 15% assignments
+- 20% first exam
+- 25% second exam
+- 30% third exam
 
 ---
 
