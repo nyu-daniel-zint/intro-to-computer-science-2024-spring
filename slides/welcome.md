@@ -662,7 +662,7 @@ The [schedule](../../) contains a day-by-day breakdown of everything you need to
 
 Your consent is necessary since we use software that is not obliged to abide by the Family Educational Rights and Privacy Act.
 
-https://goo.gl/forms/uxxgA3D9F3kA0KAR2
+https://forms.gle/yGVvSp4j2cobPsRP7
 
 Contact me if you have concerns about privacy.
 
