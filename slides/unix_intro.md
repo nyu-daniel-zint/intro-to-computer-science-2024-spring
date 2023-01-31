@@ -54,7 +54,7 @@ Unix commands are necessary in order to be able to navigate directories/folders 
 
 - all Unix commands are run in the command-line interface, such as that offered by Terminal on OS X or Git Bash on Windows.
 
-Review [basic Unix commands](/slides/unix_intro.md).
+Review [basic Unix commands](http://www.ee.surrey.ac.uk/Teaching/Unix/).
 
 ---
 
