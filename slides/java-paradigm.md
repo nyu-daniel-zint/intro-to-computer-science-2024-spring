@@ -161,7 +161,7 @@ name: machine-code
 
 ## Binary instructions
 
-At the lowest level, a programming can directly inform a computer what it should do by sending binary instructions directly to the processor.
+At the lowest level, a program can directly inform a computer what it should do by sending binary instructions directly to the processor.
 
 --
 
@@ -410,7 +410,7 @@ Byte code is somewhere between machine code and high-level source in abstraction
 
 --
 
-- Any programaming language that can be compiled into Java byte code can run in a JVM... Groovy, Kotlin, and Scala are popular high-level languages with different syntax from Java that take advantage of this.
+- Any programming language that can be compiled into Java byte code can run in a JVM... Groovy, Kotlin, and Scala are popular high-level languages with different syntax from Java that take advantage of this.
 
 ---
 
