@@ -82,7 +82,7 @@ Computer programming code is plain text. In order to edit code, you will need a 
 
 --
 
-Just about any code editor or Integrated Development Environment, such as [Visual Studio Code](https://code.visualstudio.com), is a good plain text editor.
+Just about any code editor or Integrated Development Environment (IDE), such as [Visual Studio Code](https://code.visualstudio.com), is a good plain text editor.
 
 ---
 
@@ -103,20 +103,17 @@ template: assumptions
 
 Emacs is a plain text editor that can be run from the command line. Vim is another.
 
-If you want to have the most fun with the \*NIX command line, use Emacs instead of Sublime Text or Visual Studio Code.
+If you want to have the most fun with the \*NIX command line, use Emacs/Vim instead of Sublime Text or VS Code.
 
 ---
 
 template: assumptions
 
-## Emacs shortcuts
+## Recommendations about editors
 
-Emacs functionality depends upon a lot of keyboard shortcut combinations. The following will get you started:
-
-- `Ctrl-x Ctrl-s` to save a file
-- `Ctrl-x Ctrl-c` to quit emacs
-
-Learn more shortcuts with an [emacs cheat sheet](https://duckduckgo.com/?q=emacs+cheat+sheet&t=brave&ia=cheatsheet&iax=1).
+- Know your editor.
+- Learn shortcuts, at least a few.
+- Use the debugger!
 
 ---
 
@@ -321,7 +318,7 @@ foo@bar$ javac -d bin src/edu/nyu/cs/ab1234/MyFirstJavaProgram.java
 ```
 
 ```bash
-foo@bar$ java -cp bin edu.nyu.cs.fb12358.MyFirstJavaProgram
+foo@bar$ java -cp bin edu.nyu.cs.ab1234.MyFirstJavaProgram
 ```
 
 ---
