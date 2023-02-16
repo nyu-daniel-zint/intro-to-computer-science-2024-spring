@@ -222,6 +222,38 @@ public static void foo(String bar, boolean baz) {
 
 ---
 
+name: best-practices
+
+# Best Practices
+
+A method should
+
+--
+
+- represent **one** task
+
+--
+
+- fit into your screen
+
+--
+
+- be self explaining - think of good names
+
+--
+
+- as generic as possible
+
+--
+
+- deal with bad input and throw errors
+
+--
+
+- expect occuring errors
+
+---
+
 name: conclusions
 
 # Conclusions
