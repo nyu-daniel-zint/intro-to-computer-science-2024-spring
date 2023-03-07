@@ -99,7 +99,7 @@ numbers[1][2] = 11;
 The entire inner array can also be replaced with a different one.
 
 ```java
-numbers[1] = { 13, 12, 11 };
+numbers[1] = new int[] { 13, 12, 11 };
 ```
 
 ---
@@ -200,9 +200,9 @@ When not using array syntactic sugar, it is possible to leave the length of all 
 int[][] numbers = new int[3][]; // blank second dimension
 
 // now populate each inner array with whatever length you prefer
-numbers[0] = { 10, 9, 8, 7, 6};
-numbers[1] = { 1, 2 };
-numbers[2] = { 6, 5, 4, 4, 3, 2, 1 };
+numbers[0] = new int[] { 10, 9, 8, 7, 6};
+numbers[1] = new int[] { 1, 2 };
+numbers[2] = new int[] { 6, 5, 4, 4, 3, 2, 1 };
 ```
 
 ---
