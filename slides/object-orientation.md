@@ -684,8 +684,6 @@ Dog dog1 = new Dog("Fido", "Bugle", 10);
 Dog dog2 = new Dog("Tobik", "German Shepherd", 3);
 ```
 
-[Try it](https://repl.it/repls/AcidicOrangeredProcess)
-
 ---
 
 template: difference
@@ -713,8 +711,6 @@ for (int i=0; i<dogs.length; i++) {
 
 }
 ```
-
-[Try it!](https://repl.it/repls/ExtraneousAdolescentConnection)
 
 ---
 
@@ -1016,8 +1012,6 @@ Dog dog2 = new Dog("Tobik", "German Shepherd", 3);
 System.out.printf( "There exist %d dogs in our world.\n", Dog.getNumDogs() );
 ```
 
-[Try it!](https://repl.it/repls/FirsthandUnlawfulPaint)
-
 ---
 
 name: comparisons
@@ -1196,7 +1190,6 @@ System.out.println(text);
 --
 
 By default, the output would show the **class** name of the object and a **[hashcode](https://coderanch.com/t/321515/java/HashCode)** - random-looking text that is not probably what you hoped for.
-[Try it!](https://repl.it/repls/MysteriousNormalLoaderprogram)
 
 ```
 The dog as a string looks like: Dog@63961c42
@@ -1238,8 +1231,6 @@ Now, converting the object to a String will result in something more descriptive
 ```
 Tobik, a 3-year-old German Shepherd
 ```
-
-[Try it!](https://repl.it/repls/UnusualDistantPostscript)
 
 ---
 
