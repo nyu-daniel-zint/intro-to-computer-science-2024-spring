@@ -149,8 +149,6 @@ B bObj = new B();
 System.out.println( bObj.getMessage() );
 ```
 
-- [Try it!](https://repl.it/repls/DemandingSizzlingSpreadsheet)
-
 ---
 
 template: implementation
@@ -308,8 +306,6 @@ System.out.println( cObj.getMessage() );
 
 --
 
-[Try it!](https://repl.it/repls/CraftyRawStrategy)
-
 ---
 
 name: polymorphism
@@ -363,10 +359,6 @@ for (A myObj : myObjs) {
 }
 ```
 
---
-
-- [Try it!](https://repl.it/repls/PeriodicAliveHypotenuse)
-
 ---
 
 template: polymorphism
@@ -394,10 +386,6 @@ It is often desireable to have child classes implement the instance methods defi
 ```java
 super.getMessage();
 ```
-
---
-
-- [Try it!](https://repl.it/repls/HiddenJumboObjectcode)
 
 ---
 
@@ -499,10 +487,6 @@ for (A myObj : myObjects) {
 }
 ```
 
---
-
-- [Try it!](https://repl.it/repls/DarkorangeCarefreePreprocessor)
-
 ---
 
 template: difference
@@ -531,10 +515,6 @@ for (A myObj : myObjects) {
     }
 }
 ```
-
---
-
-- [Try it](https://repl.it/repls/GuiltyIcyLeads)
 
 ---
 
