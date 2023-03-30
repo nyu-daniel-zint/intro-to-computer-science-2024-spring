@@ -367,7 +367,7 @@ name: difference
 
 ## Concept
 
-In real applications, child classes almost invariably do something different from their parent classes, whether by overriding some parent methods or implementing their own unique methods that are not present in the parent. This difference gives the child class a reaason to exist.
+In real applications, child classes almost invariably do something different from their parent classes, whether by overriding some parent methods or implementing their own unique methods that are not present in the parent. This difference gives the child class a reason to exist.
 
 --
 
@@ -508,7 +508,7 @@ The goals of inheritance are to reuse code, reduce redundancy, and provide conce
 
 --
 
-- Composition can be useful when the two objects are do not share method implementation code in common, but one of the objects nevertheless benefits from being able to access some methods of the other.
+- Composition can be useful when the two objects do not share method implementation code, but one of the objects nevertheless benefits from being able to access some methods of the other.
 
 ---
 
