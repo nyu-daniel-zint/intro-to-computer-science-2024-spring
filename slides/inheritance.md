@@ -45,36 +45,6 @@ name: overview
 
 template: overview
 
-## Historical tangent
-
-Inheritance was first implemented in Norway in 1969 for [Simula](https://en.wikipedia.org/wiki/Simula), considered the first fully object-oriented programming language. Simula included now-standard, pedestrian, object-oriented features such as:
-
-- Objects
-
---
-
-- Classes
-
---
-
-- Constructors
-
---
-
-- Inheritance
-
---
-
-- Garbage collection
-
---
-
-Think about that next time you hear someone say technology develops at lightning-speed rates of innovation.
-
----
-
-template: overview
-
 ## Benefits
 
 The touted benefits of inheritance include:
