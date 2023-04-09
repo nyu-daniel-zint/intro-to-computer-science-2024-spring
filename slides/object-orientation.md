@@ -661,7 +661,7 @@ dog1.bark(); // outputs "Fido says, 'Woof!' "
 Whereas, if we were to call that method on a dog named Tobik, then Tobik's name would be output.
 
 ```java
-Dog dog2 = new Dog("Fido", "Bugle", 10);
+Dog dog2 = new Dog("Tobik", "Bugle", 10);
 
 //...
 
