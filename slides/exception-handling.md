@@ -31,7 +31,7 @@ name: overview
 
 ## Concept
 
-An **exception** is a disruption to the _normal_ control flow of of a program.
+An **exception** is a disruption to the _normal_ control flow of a program.
 
 --
 
@@ -59,11 +59,11 @@ Exceptions are divided into two types, depending upon when they appear.
 
 --
 
-- **Checked exceptions** are reported during compilation, because the compiler checks for the them and crashes if they are not _handled_. Thus, any program that compiles has been programmed to gracefully handle any checked exceptions.
+- **Checked exceptions** are reported during compilation, because the compiler checks for them and crashes if they are not _handled_. Thus, any program that compiles has been programmed to gracefully handle any checked exceptions.
 
 --
 
-- **Unchecked exceptions** are reported during execution. The compiler does not check for the them so it is possible the developers haven't created any code to _handle_ them, and so the program may crash if they occur during runtime. They are usually the result of poor programming.
+- **Unchecked exceptions** are reported during execution. The compiler does not check for them so it is possible the developers haven't created any code to _handle_ them, and so the program may crash if they occur during runtime. They are usually the result of poor programming.
 
 --
 
@@ -79,19 +79,12 @@ The ancestry of `Exception` and `Error` objects is quite exceptional.
 
 ```
 Throwable
-   |
    |---> Exception
-   |        |
    |        |---> IOException
-   |        |           |
    |        |           |---> FileIOException
-   |        |
    |        |---> RuntimeException
-   |                    |
    |                    |---> NullPointerException
-   |                    |
    |                    |---> IndexOutOfBoundsException
-   |
    |---> Error
 ```
 
@@ -189,7 +182,7 @@ public void doSomething() {
 
 --
 
-- This code will not compile. [See for yourself!](https://repl.it/repls/FittingSnoopyOpenlook)
+- This code will not compile.
 
 --
 
@@ -226,11 +219,6 @@ public void doSomething() {
   }
 }
 ```
-
---
-
-- [Try it!](https://repl.it/repls/CrispExtrasmallOutsourcing)
-
 ---
 
 template: handling
@@ -313,9 +301,6 @@ public void anotherMethod() {
 }
 ```
 
---
-[Try it!](https://repl.it/repls/AshamedBurdensomeEquation)... - or - [try this](https://repl.it/repls/SerpentineSecondhandObjectdatabase):...
-
 ```java
 // the throws way
 public void anotherMethod() throws FileNotFoundException {
@@ -384,11 +369,6 @@ public class Person {
   }
 }
 ```
-
---
-
-- [Try it!](https://repl.it/repls/MixedRepentantLocations)
-
 --
 
 - Note that the method must declare, with the `throws` keyword, that it _might_ throw an exception.
@@ -449,11 +429,6 @@ catch (OutOfCoffeeException e) {
   // do something in response to this exeption being thrown
 }
 ```
-
---
-
-- [Try it!](https://repl.it/repls/WatchfulSqueakyProduct)
-
 --
 
 - Notice that we can catch the two exceptions separately, allowing us to take different follow-up actions in each scenario.
@@ -478,11 +453,6 @@ public static void main(String[] args) throws BurnedMouthException, OutOfCoffeeE
 
 }
 ```
-
---
-
-- [Try it!](https://repl.it/repls/MagentaSameLanguage)
-
 --
 
 - Notice that this code compiles, even though we never fully handle the exceptions with a `try`/`catch` block.
