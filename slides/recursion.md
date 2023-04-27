@@ -38,30 +38,6 @@ In mathematics and computer science, recursion is a function or procedure that i
 
 ---
 
-template: overview
-
-## Recursive humor
-
-A few recursive insider jokes might help get a sense for what it is.
-
---
-
-- The Linux operating system was originally named [GNU](https://www.gnu.org/), where GNU is a recursive acronym that stands for **G**NU's **N**ot **U**nix.
-
---
-
-- A programmer's joke: _"To understand recursion, you must first understand recursion."_
-
---
-
-- _"Wanna hear a joke about recursion?"_
-
---
-
-- _"Wanna hear a joke about recursion?"_
-
----
-
 name: fibonacci
 
 # Fibonacci Numbers
@@ -110,11 +86,6 @@ public static int fibonacci(int n) {
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
 ```
-
---
-
-- [Try it!](https://repl.it/repls/SandyCheerfulQuark)
-
 ---
 
 template: fibonacci
@@ -172,18 +143,12 @@ public static String backwards(String original) {
     }
 
     // otherwise, return the last character + the backwards of the remainder
-    else {
-      char lastChar = original.charAt(original.length() - 1);
-      String remainder = original.substring(0, original.length() - 1);
-      return lastChar + backwards(remainder);
-    }
+    char lastChar = original.charAt(original.length() - 1);
+    String remainder = original.substring(0, original.length() - 1);
+    return lastChar + backwards(remainder);
 
 }
 ```
-
---
-
-- [Try it!](https://repl.it/repls/UnselfishWorstBoastmachine)
 
 ---
 
@@ -234,9 +199,7 @@ public static int power(int base, int exp) {
     return 1;
   }
 
-  else {
-    return base * power(base, exp-1);
-  }
+  return base * power(base, exp-1);
 
 }
 ```
@@ -321,11 +284,9 @@ public static String backwards(String original) {
     }
 
     // recursive case: return the last character + the backwards of the remainder
-    else {
-      char lastChar = original.charAt(original.length() - 1);
-      String remainder = original.substring(0, original.length() - 1);
-      return lastChar + backwards(remainder);
-    }
+    char lastChar = original.charAt(original.length() - 1);
+    String remainder = original.substring(0, original.length() - 1);
+    return lastChar + backwards(remainder);
 
 }
 ```
@@ -357,9 +318,7 @@ public static int power(int base, int exp) {
   }
 
   // recursive case: decompose the problem including recursion
-  else {
-    return base * power(base, exp-1);
-  }
+  return base * power(base, exp-1);
 
 }
 ```
@@ -440,7 +399,7 @@ name: conclusions
 
 --
 
-Recursion takes some time to get familiar with. However, it can some problems that are inherently recursive in a more intuitive way, with simpler code, than other forms of iteration.
+Recursion takes some time to get familiar with. However, it can describe some problems that are inherently recursive in a more intuitive way, with simpler code, than other forms of iteration.
 
 --
 
