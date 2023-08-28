@@ -37,7 +37,7 @@ Daniel Zint
 daniel.zint@nyu.edu  
 60 5th Ave 510
 
-Office hours: Tu/Th 1:30 - 2:30 pm
+Office hours: Mo/Th 1:30 - 2:30 pm
 
 ## Getting help
 
@@ -45,15 +45,15 @@ Help resources available to you are listed in order of urgency of your problem:
 
 ### Messaging
 
-Our course will use a message board (link to be distributed in class) as its main communication channel for announcements and discussion. This is a good place to ask questions that anyone - other students, graders, tutors, or the professor - can answer. This is a resource best used when the answer is not required urgently.
+Our course will use [Slack](https://join.slack.com/t/slack-kdo7419/shared_invite/zt-224l15503-ehLiu4Hxt2rd74RoskKh2A) as main communication channel for announcements and discussion. This is a good place to ask questions that anyone - other students, graders, tutors, or the professor - can answer. This is a resource best used when the answer is not required urgently.
 
 ### Tutoring
 
-Tutors for this course are waiting to answer your questions, either on our message board or during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immeidate answer.
+Tutors for this course are waiting to answer your questions, either on our message board or during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immediate answer.
 
 Tutoring hours (all times in Eastern Time):
 
-- TBD
+- TBA
 
 ### Talk with the instructor
 
@@ -62,8 +62,8 @@ For any issues at all, contact the instructor:
 - see me before class
 - raise your hand or simply speak during class
 - see me after class
-- come to my open office hours
-- join [Slack](https://join.slack.com/t/introtocomput-mlg1264/shared_invite/zt-1npo185si-eIYS_8Di70fAlFY2CknxcA)
+- come to my office hours
+- join [Slack](https://join.slack.com/t/slack-kdo7419/shared_invite/zt-224l15503-ehLiu4Hxt2rd74RoskKh2A)
 
 ### Additional tutoring resources
 
@@ -79,7 +79,7 @@ All students require access to a computer on which they can write programs using
 
 ## Textbook
 
-The course is based on the book [_Introduction to Java Programming, Brief Version, 11th Edition_](https://www.pearson.com/en-us/subject-catalog/p/introduction-to-java-programming-brief-version/P200000003486/9780137504374) written by _Y. Liang_ and published by _Pearson_. Please get yourself access to a copy of it in order do the reading assignments.
+The course is based on the book [_Introduction to Java Programming, Brief Version, 11th Edition_](https://www.pearson.com/en-us/subject-catalog/p/introduction-to-java-programming-brief-version/P200000003486/9780137504374) written by _Y. Liang_ and published by _Pearson_. Please get yourself access to a copy of it.
 
 ### Computer labs
 
@@ -91,7 +91,7 @@ You will be able to save your work in the ITS labs on your own flash drive, or o
 
 ## Grading
 
-You will receive a grade calculated mechanically on the following rubric.
+You will receive a grade based on the following rubric.
 
 - 10% quizzes
 - 15% assignments
@@ -99,21 +99,11 @@ You will receive a grade calculated mechanically on the following rubric.
 - 25% second exam
 - 30% third exam
 
-### Quizzes
+### Quizzes & Assignments
 
-Quizzes are completed outside of class. You must be logged into Google with your NYU Net ID account in Google in order to view the Quizzes. If you see an error message indicating you do not have permission to view a Quiz, it is because you are not logged into the correct NYU Net ID account.
-
-Quizzes are submitted by submitting a Google Form, i.e. click the `Submit` button.
-
-### Late policy
+Quizzes and assignments are completed outside of class in [Brightspace](https://brightspace.nyu.edu).
 
 All assigned work is due _before_ class on the due date indicated on the [schedule](/)
-
-- for every 24 hours that work is late, we apply a 10% penalty on the grade, up to a maximum penalty of 30%.
-- after 72 hours, we will no longer accept the work.
-- for any group work, each member of the group will be penalized individually.
-
-### Extensions
 
 There are **no** extensions.
 
