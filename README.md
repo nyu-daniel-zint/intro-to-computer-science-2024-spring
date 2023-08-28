@@ -1,10 +1,12 @@
+This repository and all its content is based on Amos Bloomberg's [Intro To Computer Science](https://github.com/nyu-java-programming/course-materials).
+
 # Introduction to Computer Science
 
 Slide presentations used to teach basic computer science concepts, largely focused on object-oriented programming.
 
 ## Deployed site
 
-View the [schedule](https://nyu-java-programming.github.io/course-materials/) and [syllabus](https://nyu-java-programming.github.io/course-materials/syllabus), which contain links to all deployed course materials.
+View the [schedule](https://nyu-daniel-zint.github.io/intro-to-computer-science-2023-fall/) and [syllabus](https://nyu-daniel-zint.github.io/intro-to-computer-science-2023-fall/syllabus/), which contain links to all deployed course materials.
 
 ## Running locally
 
