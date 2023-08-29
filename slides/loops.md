@@ -8,10 +8,6 @@ class: center, middle
 
 # Loops
 
-> "History doesn’t repeat itself but it often rhymes"
->
-> -Attributed mistakenly to [Mark Twain](https://en.wikipedia.org/wiki/Mark_Twain)
-
 ---
 
 # Agenda
@@ -353,7 +349,3 @@ name: conclusions
 --
 
 You now have a basic understanding of for loops, while loops, and a few common tasks performed by each.
-
---
-
-- Thank you. Bye.

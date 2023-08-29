@@ -552,7 +552,3 @@ name: conclusions
 --
 
 - We can now do basic file management on the UNIX command line.
-
---
-
-- Thank you. Bye.

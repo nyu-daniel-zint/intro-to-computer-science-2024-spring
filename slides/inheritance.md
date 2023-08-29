@@ -8,10 +8,6 @@ class: center, middle
 
 # Inheritance & Polymorphism
 
-> The problem with object-oriented languages is they’ve got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.
->
-> –[Joe Armstrong](https://en.wikipedia.org/wiki/Joe_Armstrong_%28programmer%29), creator of Erlang, a functional programming language
-
 ---
 
 # Agenda
@@ -707,7 +703,3 @@ name: conclusions
 --
 
 You have now extended your understanding of object-oriented programming to include class-based inheritance and polymorphism.
-
---
-
-- Thank you. Bye.

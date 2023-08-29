@@ -8,10 +8,6 @@ class: center, middle
 
 # Abstract Classes
 
-> Abstraction can provide stumbling blocks for people of strange intelligence.
->
-> –[Gustave Flaubert](https://en.wikipedia.org/wiki/Gustave_Flaubert), in his unfinished satirical work, Bouvard et Pécuchet
-
 ---
 
 # Agenda
@@ -279,7 +275,3 @@ name: conclusions
 --
 
 Abstract classes can be useful, when implemented with tact. You now have an understanding of the various ways in which this might be the case.
-
---
-
-- Thank you. Bye.

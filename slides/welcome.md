@@ -338,10 +338,10 @@ math.pow(2, 2)
 Try to convince me that you don't understand this code:
 
 ```javascript
-let x = 5;
-let y = true;
+let x = 5
+let y = true
 if (x < 10 || y === true) {
-    console.log("Easy peasy!");
+  console.log("Easy peasy!")
 }
 ```
 
@@ -537,7 +537,8 @@ I will speak for 75 minutes about twice each week.... that's 150 minutes of talk
 
 --
 
-Please interrupt me and ask questions. 
+Please interrupt me and ask questions.
+
 - Lectures are far more effective when there's two-way communication
 
 ---
@@ -567,11 +568,9 @@ template: how-course-works
 
 ## Assignments
 
-You will have somewhere around 10 assignments.
+You will have 8 assignments.
 
-You lose 10 points for each day late and we do not accept submissions more than 3 days late.
-
-See the complete [lateness policy](../../syllabus#late-policy).
+Assignments that are handed in late are not graded --> **0 points**!
 
 ---
 
@@ -597,6 +596,7 @@ template: how-course-works
 ## Exams
 
 You will take 3 exams.
+
 - Two midterms
 - One final
 
@@ -636,7 +636,7 @@ Tutors are waiting to answer your questions virtually all day every day of the w
 
 See them often. See them fast.
 
-Check the complete [tutoring schedule](../../syllabus).
+Check the complete [tutoring schedule](../../syllabus/#tutoring).
 
 ---
 
@@ -659,7 +659,6 @@ The [syllabus](../../syllabus) contains basic information on how this course wor
 The [schedule](../../schedule) contains a day-by-day breakdown of everything you need to know and do in this course.
 
 ---
-
 
 # What to do now
 
@@ -697,7 +696,7 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 
 - Git for Windows additionally comes with Git Bash, which gives Windows users a UNIX-like command shell.
 - WINDOWS USERS - you should use Git Bash or Windows Subsystem for Linux (WSL) rather than Windows' default Powershell or other command line shell program. To set Git Bash or WSL as the default terminal shell within Visual Studio Code, you can try to follow the instructions in [the second answer here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal) by **Mahade Walid** and edited by **FruityOatyBar** (ignore the first answer, which is outdated).
-- Mac users already have a UNIX command shell in the Terminal app.
+- Mac and Linux users already have a UNIX command shell in the Terminal app.
 
 ---
 
@@ -718,7 +717,3 @@ name: conclusions
 ```python
 print("There's no reason to worry... {}".format("yet!"))
 ```
-
---
-
-- Thanks. Bye.

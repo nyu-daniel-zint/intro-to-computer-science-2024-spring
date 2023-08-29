@@ -6,11 +6,7 @@ permalink: /slides/exception-handling/
 
 class: center, middle
 
-# Exception Handling
-
-> Beginner knows rules, but veterans know exceptions.
->
-> –Amit Kalantri, in [Wealth of Words](https://www.goodreads.com/book/show/32181272-wealth-of-words)
+# Exception
 
 ---
 
@@ -219,6 +215,7 @@ public void doSomething() {
   }
 }
 ```
+
 ---
 
 template: handling
@@ -369,6 +366,7 @@ public class Person {
   }
 }
 ```
+
 --
 
 - Note that the method must declare, with the `throws` keyword, that it _might_ throw an exception.
@@ -429,6 +427,7 @@ catch (OutOfCoffeeException e) {
   // do something in response to this exeption being thrown
 }
 ```
+
 --
 
 - Notice that we can catch the two exceptions separately, allowing us to take different follow-up actions in each scenario.
@@ -453,6 +452,7 @@ public static void main(String[] args) throws BurnedMouthException, OutOfCoffeeE
 
 }
 ```
+
 --
 
 - Notice that this code compiles, even though we never fully handle the exceptions with a `try`/`catch` block.
@@ -470,7 +470,3 @@ name: conclusions
 --
 
 Like function arguments and return values, checked exceptions are yet another mechanism by which messages are passed from one part of a Java program to another.
-
---
-
-- Thank you. Bye.

@@ -8,14 +8,6 @@ class: center, middle
 
 # Branching
 
-> Two roads diverged in a yellow wood,
->
-> And sorry I could not travel both
->
-> ...
-
--Robert Frost, [The Road Not Taken](https://www.poetryfoundation.org/poems/44272/the-road-not-taken)
-
 ---
 
 # Agenda
@@ -327,9 +319,9 @@ It is often the case that we use if/else statements to control setting the value
 
 ```javascript
 if (breakfastWasServed && breakfastWasEaten) {
-  satiationLevel = "full";
+  satiationLevel = "full"
 } else {
-  satiationLevel = "hungry";
+  satiationLevel = "hungry"
 }
 ```
 
@@ -340,7 +332,7 @@ The ternary operator, `?`, thankfully allows us to simplify such syntax:
 --
 
 ```javascript
-satiationLevel = breakfastWasServed && breakfastWasEaten ? "full" : "hungry";
+satiationLevel = breakfastWasServed && breakfastWasEaten ? "full" : "hungry"
 ```
 
 ---
@@ -352,7 +344,3 @@ name: conclusions
 --
 
 You now have a basic understanding of UML activity diagrams, if/else if/else statements, and switch/case statements.
-
---
-
-- Thank you. Bye.

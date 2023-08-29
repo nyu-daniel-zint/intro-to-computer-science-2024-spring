@@ -8,10 +8,6 @@ class: center, middle
 
 # Arrays
 
-> Days of absence, sad and dreary, clothed in sorrow's dark array. Days of absence, I am weary; she, I love, is far away.
->
-> -[Jean-Jacques Rousseau](https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau), Days of Absence
-
 ---
 
 # Agenda
@@ -667,7 +663,3 @@ name: conclusions
 --
 
 You now have a basic understanding of arrays in Java.
-
---
-
-- Thank you. Bye.

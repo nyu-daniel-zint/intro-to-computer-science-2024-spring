@@ -8,10 +8,6 @@ class: center, middle
 
 # Recursion
 
-> Use recursive procedures for recursively-defined data structures.
->
-> –Kernighan and Plauger, in [The Elements of Programming Style](http://www2.ing.unipi.it/~a009435/issw/extra/kp_elems_of_pgmng_sty.pdf)
-
 ---
 
 # Agenda
@@ -86,6 +82,7 @@ public static int fibonacci(int n) {
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
 ```
+
 ---
 
 template: fibonacci
@@ -400,7 +397,3 @@ name: conclusions
 --
 
 Recursion takes some time to get familiar with. However, it can describe some problems that are inherently recursive in a more intuitive way, with simpler code, than other forms of iteration.
-
---
-
-- Thank you. Bye.

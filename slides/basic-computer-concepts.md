@@ -6,7 +6,7 @@ permalink: /slides/basic-computer-concepts/
 
 class: center, middle
 
-# Basic computer concepts
+# Basic Computer Concepts
 
 ---
 
@@ -264,7 +264,7 @@ Files and folders still exist underneath
 
 ---
 
-## Types of files
+## Types of Files
 
 We might think of there as being many types of files, associated with differenet applications
 
@@ -287,7 +287,7 @@ Text files still use binary
 
 ---
 
-## Text files
+## Text Files
 
 Lines of human-readable characters, potentially separated into lines
 "Plain"
@@ -304,7 +304,7 @@ Easy to manipulate with a wide variety of software
 
 ---
 
-## Creating and editing text files
+## Creating and Editing Text Files
 
 Multi-platform
 
@@ -372,7 +372,7 @@ json
 
 ---
 
-## Binary files
+## Binary Files
 
 - There are many other ways to store data
 
@@ -409,7 +409,7 @@ json
 
 ---
 
-## Binary file editors
+## Binary File Editors
 
 Images
 
@@ -454,7 +454,7 @@ Or follow whatever <a href="https://en.wikipedia.org/wiki/Naming_convention_(pro
 
 ---
 
-## File extensions
+## File Extensions
 
 How does your computer know which software opens a file?
 
@@ -481,7 +481,7 @@ Operating system manages a list of default extensions
 
 ---
 
-## File permissions
+## File Permissions
 
 Computers are all designed by multiple "users"
 
@@ -542,7 +542,7 @@ Modern computer usage errs away from files on disks
 
 ---
 
-## Clients and servers
+## Clients and Servers
 
 Our computer ("client") prepares messages and sends it through cable or wifi to a remote destination according to an address.
 
@@ -558,7 +558,7 @@ A computer ("server") reads the message and returns an output message
 
 ---
 
-## Web browsers
+## Web Browsers
 
 Client for interacting with web data
 
@@ -582,7 +582,7 @@ This input/output relationship is complex due to programs that run in web browse
 
 ---
 
-## The internet vs. the web
+## The Internet vs. The Web
 
 Just like binary files, html is just one encoding of data
 Internet transfers all sorts of data
@@ -602,8 +602,14 @@ Internet transfers all sorts of data
 
 ## Conclusion
 
-An idea for how components of a computer operate
+You should have:
 
-A more general view of what files on a computer are
+- an idea for how components of a computer operate
 
-A brief overview of the internet connections
+--
+
+- a more general view of what files on a computer are
+
+--
+
+- a brief overview of the internet connections

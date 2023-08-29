@@ -8,10 +8,6 @@ class: center, middle
 
 # Methods
 
-> "Take a method and try it. If it fails, admit it frankly, and try another. But by all means, try something."
->
-> -[Franklin D. Roosevelt](https://en.wikipedia.org/wiki/Franklin_D._Roosevelt)
-
 ---
 
 # Agenda
@@ -261,7 +257,3 @@ name: conclusions
 --
 
 You now have a basic understanding of methods in Java.
-
---
-
-- Thank you. Bye.

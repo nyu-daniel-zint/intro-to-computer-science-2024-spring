@@ -8,10 +8,6 @@ class: center, middle
 
 # Multidimensional Arrays
 
-> The universe is not a stagnant place where technology stands still and only the few govern its destiny. Rather, it is a multidimensional dynamic entity that interacts with all things, even the very smallest. And what part we each place in it and the effect we have on it is a matter of our own choice.
->
-> -[R.G. Risch](https://www.goodreads.com/book/show/5618917-beyond-mars), Beyond Mars: Crimson Fleet
-
 ---
 
 # Agenda
@@ -338,7 +334,3 @@ name: conclusions
 --
 
 You now have a basic understanding of multidimensional arrays - especially two-dimensional arrays - in Java.
-
---
-
-- Thank you. Bye.

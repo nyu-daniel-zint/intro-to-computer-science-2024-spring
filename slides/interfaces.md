@@ -8,10 +8,6 @@ class: center, middle
 
 # Interfaces
 
-> As far as the customer is concerned, the interface is the product.
->
-> –[Jef Raskin](https://en.wikipedia.org/wiki/Jef_Raskin), initial creator of the Apple Macintosh
-
 ---
 
 # Agenda
@@ -502,7 +498,3 @@ name: conclusions
 --
 
 As you have seen, interfaces in Java offer an alternative form of inheritance in Java with some similarities - and many differences - with class-based inheritance.
-
---
-
-- Thank you. Bye.

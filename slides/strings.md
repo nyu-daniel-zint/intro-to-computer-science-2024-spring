@@ -8,10 +8,6 @@ class: center, middle
 
 # String & Related Classes
 
-> We are all instruments endowed with feeling and memory. Our senses are so many strings that are struck by surrounding objects and that also frequently strike themselves.
->
-> –[Denis Diderot](https://en.wikipedia.org/wiki/Denis_Diderot)
-
 ---
 
 # Agenda
@@ -477,7 +473,3 @@ name: conclusions
 --
 
 You now have increased your knowledge of the String and related classes as examples of typical object-oriented Java classes.
-
---
-
-- Thank you. Bye.

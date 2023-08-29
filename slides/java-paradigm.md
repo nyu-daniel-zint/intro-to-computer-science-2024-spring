@@ -460,7 +460,3 @@ name: conclusions
 --
 
 You now have a basic understanding of compiling, interpreting, and how the Java paradigm fits into these schemes.
-
---
-
-- Thank you. Bye.

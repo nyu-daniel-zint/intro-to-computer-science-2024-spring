@@ -8,8 +8,6 @@ class: center, middle
 
 # Starter code
 
-Welcome
-
 ---
 
 # Agenda
@@ -785,7 +783,3 @@ name: conclusions
 --
 
 We can now use the command line to write and compile Java source code into Java byte code and then execute that byte code using the JVM interpreter. We also understand a bit about data types in Java.
-
---
-
-- Thank you. Bye.
