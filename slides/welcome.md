@@ -65,9 +65,9 @@ template: introductions
 
 ## You
 
-- Probably an aspiring programmer.
-- Perhaps an aspiring computer scientist.
-- Hopefully, interested in making things and solving problems.
+- An aspiring programmer?
+- An aspiring computer scientist?
+- Interested in making things and solving problems?
 - Willing to spend hours by yourself reading and **staring at code**.
 
 ---
@@ -340,7 +340,7 @@ Try to convince me that you don't understand this code:
 ```javascript
 let x = 5;
 let y = true;
-if (x < 10 and y === true) {
+if (x < 10 || y === true) {
     console.log("Easy peasy!");
 }
 ```
@@ -348,7 +348,7 @@ if (x < 10 and y === true) {
 ```java
 int x = 5;
 boolean y = true;
-if (x < 10 and y == true) {
+if (x < 10 || y == true) {
     System.out.println("Easy peasy!");
 }
 ```
@@ -372,7 +372,7 @@ you = new Student("Jane Doe")
 ```
 
 ```python
-me = new Professor("Foo Barstein")
+me = new Professor("Daniel Zint")
 ```
 
 ```python
@@ -537,7 +537,8 @@ I will speak for 75 minutes about twice each week.... that's 150 minutes of talk
 
 --
 
-I sincerely hope for your sake and mine that you will interrupt me and ask lots of questions.
+Please interrupt me and ask questions. 
+- Lectures are far more effective when there's two-way communication
 
 ---
 
@@ -545,9 +546,10 @@ template: how-course-works
 
 ## Notes
 
-> I write notes for most lecture topics. You may find them useful but incomplete.
->
-> -_Amos Bloomberg_
+[Amos Bloomberg](https://knowledge.kitchen) provides notes for most lecture
+topics. You may find them useful but incomplete.
+
+- The notes pertinent to any lecture are found on the [schedule](./../schedule).
 
 You find all the material to his courses on [Knowldedge Kitchen](https://knowledge.kitchen/).
 
@@ -595,6 +597,8 @@ template: how-course-works
 ## Exams
 
 You will take 3 exams.
+- Two midterms
+- One final
 
 Many find the first exam to be easy. The second and third... not so much!
 
@@ -618,7 +622,7 @@ template: how-course-works
 
 ## Communication
 
-We use [Slack](https://join.slack.com/t/introtocomput-mlg1264/shared_invite/zt-1npo185si-eIYS_8Di70fAlFY2CknxcA) for all communication outside of the classroom.
+We use [Slack](https://join.slack.com/t/slack-kdo7419/shared_invite/zt-224l15503-ehLiu4Hxt2rd74RoskKh2A) for all communication outside of the classroom.
 
 You must use your NYU email to join.
 
@@ -652,21 +656,10 @@ The [syllabus](../../syllabus) contains basic information on how this course wor
 
 ## Bookmark the schedule
 
-The [schedule](../../) contains a day-by-day breakdown of everything you need to know and do in this course.
+The [schedule](../../schedule) contains a day-by-day breakdown of everything you need to know and do in this course.
 
 ---
 
-# What to do now
-
-## Complete the consent form
-
-Your consent is necessary since we use software that is not obliged to abide by the Family Educational Rights and Privacy Act.
-
-https://forms.gle/yGVvSp4j2cobPsRP7
-
-Contact me if you have concerns about privacy.
-
----
 
 # What to do now
 
@@ -700,9 +693,7 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 
 # What to do now
 
-## Install Git
-
-Get git [for Mac](https://git-scm.com/downloads) or [Git for Windows](https://gitforwindows.org/).
+## Install a Terminal
 
 - Git for Windows additionally comes with Git Bash, which gives Windows users a UNIX-like command shell.
 - WINDOWS USERS - you should use Git Bash or Windows Subsystem for Linux (WSL) rather than Windows' default Powershell or other command line shell program. To set Git Bash or WSL as the default terminal shell within Visual Studio Code, you can try to follow the instructions in [the second answer here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal) by **Mahade Walid** and edited by **FruityOatyBar** (ignore the first answer, which is outdated).

@@ -392,7 +392,7 @@ json
 
 ---
 
-## Surprising example of a text file
+## Surprising Example of a Text File
 
 ```xml
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 46" width="135" height="46">
@@ -430,7 +430,7 @@ PDF Files
 
 ---
 
-## Good file naming conventions
+## Good File Naming Conventions
 
 Try to use lowercase without spaces
 

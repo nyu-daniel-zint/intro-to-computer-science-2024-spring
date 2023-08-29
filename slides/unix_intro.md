@@ -330,7 +330,7 @@ foo@bar$ rmdir meat
 Delete a non-empty directory with the `r` flag of the `rm` command:
 
 ```bash
-foo@bar$ rm -r meat
+foo@bar$ rm -rf meat
 ```
 
 ---
