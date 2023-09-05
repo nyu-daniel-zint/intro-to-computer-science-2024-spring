@@ -37,7 +37,10 @@ Daniel Zint
 daniel.zint@nyu.edu  
 60 5th Ave 510
 
-Office hours: Mo/Th 1:30 - 2:30 pm
+Office hours:
+
+- Monday 4:30 - 5:30 pm
+- Thursday 1:30 - 2:30 pm
 
 ## Getting help
 
