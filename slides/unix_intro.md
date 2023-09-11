@@ -356,7 +356,7 @@ foo@bar$ mkdir ../arugula
 Make a new directory somewhere totally different on the hard drive:
 
 ```bash
-foo@bar$ mkdir /Users/foo/Photos/compromising/nudes
+foo@bar$ mkdir /Users/foo/Photos/fruits
 ```
 
 ---
