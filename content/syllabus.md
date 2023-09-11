@@ -54,9 +54,7 @@ Our course will use [Slack](https://join.slack.com/t/slack-kdo7419/shared_invite
 
 Tutors for this course are waiting to answer your questions, either on our message board or during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immediate answer.
 
-Tutoring hours (all times in Eastern Time):
-
-- TBA
+Tutoring hours are available on the Brightspace course website.
 
 ### Talk with the instructor
 
