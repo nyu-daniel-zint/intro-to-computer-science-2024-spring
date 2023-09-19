@@ -75,9 +75,6 @@ template: assumptions
 
 Computer programming code is plain text. In order to edit code, you will need a decent plain text editor program.
 
-- Install [Sublime Text](https://www.sublimetext.com/), a free good quality plain text editor.
-- Sublime Text is freeware, but periodically will ask for donations. You are not required to donate.
-
 --
 
 Just about any code editor or Integrated Development Environment (IDE), such as [Visual Studio Code](https://code.visualstudio.com), is a good plain text editor.
@@ -90,7 +87,7 @@ template: assumptions
 
 - Never use TextEdit on OS X to edit code.
 - Never use Notepad on Windows to edit code.
-- Do not use Microsoft Word or Google Docs to edit code
+- Do not use Microsoft Word or Google Docs to edit code (it is not a text editor!)
 - Beware of Emacs, lest you find yourself forever dreaming of keyboard shortcuts.
 
 ---
@@ -101,7 +98,7 @@ template: assumptions
 
 Emacs is a plain text editor that can be run from the command line. Vim is another.
 
-If you want to have the most fun with the \*NIX command line, use Emacs/Vim instead of Sublime Text or VS Code.
+If you want to have the most fun with the \*NIX command line, use Emacs/Vim instead of VS Code.
 
 ---
 
@@ -143,7 +140,7 @@ template: starter-code
 Edit the text file you just created using a text editor of your choice.
 
 ```bash
-foo@bar$ emacs MyFirstJavaProgram.java
+foo@bar$ code MyFirstJavaProgram.java
 ```
 
 Add the following code:
@@ -153,7 +150,6 @@ public class MyFirstJavaProgram {
 	public static void main(String[] args) {
 		// put the main contents of your program below here
 		System.out.println("Welcome to Java from the command line!");
-		// put the main contents of your program above here
 	}
 }
 ```
@@ -164,9 +160,10 @@ template: starter-code
 
 ## Save your file
 
-If you are using the emacs editor, press `Ctrl-x Ctrl-S` to save, then `Ctrl-x Ctrl-c` to quit.
+Know the shortcut. Do it frequently!
 
-If using any other graphical user interface editor, just save the ordinary way.
+- Windows: `Ctrl-s`
+- Mac: `Command-s`
 
 ---
 
@@ -222,7 +219,6 @@ public class MyFirstJavaProgram {
 	public static void main(String[] args) {
 		// put the main contents of your program below here
 		System.out.println("Welcome to Java from the command line!");
-		// put the main contents of your program above here
 	}
 }
 ```
@@ -280,8 +276,6 @@ Now try running it. Here we will tell the JVM that it should look in the current
 foo@bar$ java -classpath . edu.nyu.cs.ab1234.MyFirstJavaProgram
 Better welcome to Java from the command line!
 ```
-
-Use package identifiers from now on in all work.
 
 ---
 
@@ -451,7 +445,7 @@ template: data-types
 
 Observations:
 
-- `float` and `double` are fundamentally inaccurate. Use `java.math.BigDecimal` for accuracy.
+- `float` and `double` are fundamentally inaccurate. Use `java.math.BigDecimal` for accuracy if required.
 - there is no `String` primitive data type in Java. `String` is a `class` that is written in Java code.
 - because it contains "primitive" data types that are not only `class` types, _Java is not a purely object-oriented language_.
 
@@ -538,10 +532,10 @@ template: data-types
 
 `String` is not a primitive data type, it's an object-oriented `class`.
 
-- Only primitive data types with the same value are guaranteed to be stored in the same spot in memory
-- So two Strings with the same value may be stored in different spots in memory
-- So the `==` operator may not always result in a `true`, when comparing two Strings, even those with the same text.
-- So use the `.equals()` method for Strings instead.
+- Only primitive data types can be compared with `==`
+- Two Strings with the same value may be stored in different spots in memory
+- The `==` operator may not always result in a `true`, when comparing two Strings, even those with the same text.
+- Use the `.equals()` method for Strings instead.
 
 ```java
 String x = "hello";
