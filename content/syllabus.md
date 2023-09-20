@@ -40,7 +40,7 @@ daniel.zint@nyu.edu
 Office hours:
 
 - Monday 4:30 - 5:30 pm
-- Thursday 1:30 - 2:30 pm
+- Wednesday 1:30 - 2:30 pm
 
 ## Getting help
 
