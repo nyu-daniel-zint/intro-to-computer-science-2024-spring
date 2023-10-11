@@ -454,7 +454,7 @@ name: arraylist
 
 ## Overview
 
-The `ArrayList` class, part of the `java.util` package, is designed to give programmers a more dynamic array-like expeirence than the primitive arrays can do.
+The `ArrayList` class, part of the `java.util` package, is designed to give programmers a more dynamic array-like experience than the primitive arrays can do.
 
 - an `ArrayList` does not have a fixed length
 
