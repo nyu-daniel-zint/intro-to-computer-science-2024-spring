@@ -622,9 +622,7 @@ template: how-course-works
 
 ## Communication
 
-We use [Slack](https://join.slack.com/t/slack-kdo7419/shared_invite/zt-224l15503-ehLiu4Hxt2rd74RoskKh2A) for all communication outside of the classroom.
-
-You must use your NYU email to join.
+We use Brightspace for all communication outside of the classroom.
 
 ---
 
@@ -636,7 +634,7 @@ Tutors are waiting to answer your questions virtually all day every day of the w
 
 See them often. See them fast.
 
-Check the complete [tutoring schedule](../../syllabus/#tutoring).
+The tutor's schedule will be posted on Brightspace once available.
 
 ---
 

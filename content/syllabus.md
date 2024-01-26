@@ -37,10 +37,10 @@ Daniel Zint
 daniel.zint@nyu.edu  
 60 5th Ave 510
 
-Office hours:
+Office hours (please announce yourself by writing an email):
 
-- Monday 4:30 - 5:30 pm
-- Wednesday 1:30 - 2:30 pm
+- Monday 2:00 - 3:00 pm
+- Wednesday 2:00 - 3:00 pm
 
 ## Getting help
 
@@ -48,7 +48,7 @@ Help resources available to you are listed in order of urgency of your problem:
 
 ### Messaging
 
-Our course will use [Slack](https://join.slack.com/t/slack-kdo7419/shared_invite/zt-224l15503-ehLiu4Hxt2rd74RoskKh2A) as main communication channel for announcements and discussion. This is a good place to ask questions that anyone - other students, graders, tutors, or the professor - can answer. This is a resource best used when the answer is not required urgently.
+Our course will use Brightspace as main communication channel for announcements and discussion. This is a good place to ask questions that anyone - other students, graders, tutors, or the professor - can answer. This is a resource best used when the answer is not required urgently.
 
 ### Tutoring
 
@@ -64,7 +64,7 @@ For any issues at all, contact the instructor:
 - raise your hand or simply speak during class
 - see me after class
 - come to my office hours
-- join [Slack](https://join.slack.com/t/slack-kdo7419/shared_invite/zt-224l15503-ehLiu4Hxt2rd74RoskKh2A)
+- use the Discussions section in Brightspace
 
 ### Additional tutoring resources
 
@@ -116,7 +116,7 @@ If a student requests a regrade of any work, we will regrade the work in full, n
 
 Working with others and leveraging all resources available to you is a prerequisite for success. This is different from copying, cheating, plagiarism, and mental laziness. All submitted work must be your own. There are very reliable systems we use to detect plagiarism in computer code, such as [moss](http://theory.stanford.edu/~aiken/moss/) and [compare50](https://github.com/cs50/compare50). If you submit any work that is not your own, you risk failure or worse.
 
-Please read the [Computer Science department's policy on academic integrity](http://cs.nyu.edu/home/undergrad/policy.html) and the [University-wide policy](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html) which supercedes it.
+Please read the [Computer Science department's policy on academic integrity](http://cs.nyu.edu/home/undergrad/policy.html) and the [University-wide policy](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/academic-integrity-for-students-at-nyu.html) which supersedes it.
 
 ## Acknowledgements
 
